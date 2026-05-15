@@ -1,0 +1,19 @@
+{
+  "name": "no-trace-containers",
+  "version": "0.1.0",
+  "description": "Disable browsing history (and optionally cookies on tab close) for chosen Firefox containers.",
+  "private": true,
+  "scripts": {
+    "lint": "web-ext lint --source-dir .",
+    "start": "web-ext run --source-dir .",
+    "build": "web-ext build --source-dir . --artifacts-dir ./dist --overwrite-dest"
+  },
+  "devDependencies": {
+    "web-ext": "^8.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziki17/no-trace-containers"
+  },
+  "license": "MIT"
+}

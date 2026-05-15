@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>No Trace Containers — Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>No Trace Containers</h1>
+        <p class="muted">
+          Pick which containers should have their browsing history wiped as you browse.
+          Cookies and site data are unaffected unless you opt in below.
+        </p>
+      </header>
+
+      <section>
+        <h2>Containers</h2>
+        <p id="containers-empty" class="muted" hidden>
+          No containers found. Enable Container Tabs in
+          <code>about:preferences#tabs</code> and create at least one container.
+        </p>
+        <ul id="containers"></ul>
+      </section>
+
+      <section>
+        <h2>Extras</h2>
+        <label class="row">
+          <input type="checkbox" id="clear-cookies" />
+          <span>
+            Clear cookies for blocked containers when the last tab closes
+            <small class="muted">
+              Useful if you want a clean slate every browsing session.
+            </small>
+          </span>
+        </label>
+      </section>
+
+      <footer>
+        <span class="muted small" id="save-status">Saved automatically.</span>
+      </footer>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>
