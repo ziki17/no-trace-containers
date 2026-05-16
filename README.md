@@ -1,8 +1,20 @@
 # No Trace Containers
 
+[![Get the Add-on](https://img.shields.io/amo/v/no-trace-containers?label=Firefox%20Add-on&logo=firefoxbrowser)](https://addons.mozilla.org/firefox/addon/no-trace-containers/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A Firefox extension that disables browsing history for chosen containers. Optionally clears cookies for those containers when their last tab closes.
 
-Built because [`xieve/no-history-containers`](https://gitlab.com/xieve/no-history-containers) is unmaintained and was broken on recent Firefox.
+> Built because [`xieve/no-history-containers`](https://gitlab.com/xieve/no-history-containers) is unmaintained and was broken on recent Firefox.
+
+<!-- TODO: drop a screenshot of the popup here -->
+<!-- ![Popup](docs/screenshot-popup.png) -->
+
+## Install
+
+**From AMO (recommended):** [addons.mozilla.org/firefox/addon/no-trace-containers](https://addons.mozilla.org/firefox/addon/no-trace-containers/)
+
+Or build from source — see [Install (developer)](#install-developer--temporary) below.
 
 ## What it does
 
