@@ -2,5 +2,6 @@ node_modules/
 dist/
 *.xpi
 .DS_Store
-.web-ext-artifacts/
+web-ext-artifacts/
 journal-*.md
+LAUNCH.md
